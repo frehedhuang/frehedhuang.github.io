@@ -7,7 +7,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
 <meta property="article:published_time" content="2024-06-08T15:57:12.000Z">
-<meta property="article:modified_time" content="2024-06-08T16:34:49.105Z">
+<meta property="article:modified_time" content="2024-06-08T16:41:38.845Z">
 <meta property="article:author" content="iShine">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2024/06/08/FRP%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE%E5%86%85%E7%BD%91Aria2/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
@@ -55,7 +55,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2024-06-09 00:34:49'
+  postUpdate: '2024-06-09 00:41:38'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -152,7 +152,7 @@
         }
       }
       detectApple()
-    })(window)</script><meta name="generator" content="Hexo 7.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="iShine"><span class="site-name">iShine</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">FRR远程访问并管理内网Aria2下载</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2024-06-08T15:57:12.000Z" title="Created 2024-06-08 23:57:12">2024-06-08</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2024-06-08T16:34:49.105Z" title="Updated 2024-06-09 00:34:49">2024-06-09</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="FRR远程访问并管理内网Aria2下载"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>这是个以前碰到的老问题。做个笔记以备忘。</p>
+    })(window)</script><meta name="generator" content="Hexo 7.2.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="iShine"><span class="site-name">iShine</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">FRR远程访问并管理内网Aria2下载</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2024-06-08T15:57:12.000Z" title="Created 2024-06-08 23:57:12">2024-06-08</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2024-06-08T16:41:38.845Z" title="Updated 2024-06-09 00:41:38">2024-06-09</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="FRR远程访问并管理内网Aria2下载"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>这是个以前碰到的老问题。做个笔记以备忘。</p>
 <p>路由器是新三，固件是L大源码编译的Openwrt，带有FRP客户端及aira2.</p>
 <p>Aira2在家里内网上正常使用。想实现人在外面找到好的资源时随时可访问家里的路由器及时下载，需要使用远程控制。<br>尝试用FRP来实现。<br>FRP分服务端和客户端，服务端要搭建在远程主机上，比如自己购买搭建的VPS. 客户端要安装在内网里的某台设备上，比如路由器、NAS等。</p>
 <p>服务器上的FRP服务端装好并配置启动，网上教程很多，也比较容易配置。服务端的http端口号设12306.</p>
@@ -161,7 +161,7 @@
 <blockquote>
 <p>第一个是http，即使没有第二个也可以直接在浏览器用xyz.abc.com:12306访问路由器管理后台.<br>第二个为tcp，这个是配置aria访问. 注意它们的端口都应为6800，可以说成功的关键就在这两个端口设置，这个配置依赖第一个配置，单独设置不起作用。</p>
 </blockquote>
-<p>![FRP客户端端口设置](..&#x2F;pics&#x2F;屏幕截图 2024-06-09 001249.jpg)</p>
+<p>![FRP客户端端口设置](..&#x2F;pics&#x2F;2024-06-09 001249.jpg)</p>
 <p>保存应用后在浏览器访问下述地址，应该就没有问题了。</p>
 <blockquote>
 <p>xyz.abc.com:12306&#x2F;ariang</p>
